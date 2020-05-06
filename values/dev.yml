@@ -1,0 +1,23 @@
+name: maven-demo
+
+labels: 
+  source: maven
+  stack: frontend
+  app: tomcat
+  
+replicacount: 4
+
+matchLabels:
+  source: maven
+  app: tomcat
+
+image:
+  repository: index.docker.io/tusharstudy2020/webappimages
+  
+containerPort: 8080
+
+service:
+  nodeport: 32449
+  name: maven-demo
+  type: NodePort
+  protocol: TCP
