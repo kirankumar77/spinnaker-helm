@@ -1,5 +1,5 @@
 # spinnaker-helm
-Java Hello World web application created with Spinnaker 
+CICD Pipeline setup with Spinnaker with Helm
 
 Blog Post Reference
 https://softwaredev3loper.wordpress.com/2016/02/17/from-zero-to-continuous-delivery/
